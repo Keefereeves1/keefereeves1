@@ -1,4 +1,4 @@
-# Keefe Reeves Personal Website 🌐
+# Keefe Reeves 🌐
 
 ## Table of Contents
 1. [Introduction](#introduction)
