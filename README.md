@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# Keefe Reeves Personal Website 🌐
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of Contents
+1. [Introduction](#introduction)
+2. [About Keefe Reeves](#about-keefe-reeves)
+3. [Professional Background](#professional-background)
+4. [Skills and Expertise](#skills-and-expertise)
+5. [Current Projects](#current-projects)
+6. [Ethical Hacking and Cybersecurity](#ethical-hacking-and-cybersecurity)
+7. [AI Projects](#ai-projects)
+8. [Education and Certifications](#education-and-certifications)
+9. [Personal Interests](#personal-interests)
+10. [Contact Information](#contact-information)
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Introduction
+Welcome to [keefereeves.com](https://keefereeves.com) - the official personal website of Keefe Reeves! This site is dedicated to showcasing my professional journey, projects, and personal interests. Here, you'll find detailed information about my background, skills, and the exciting projects I'm working on. Whether you're a potential employer, a fellow developer, or just curious about my work, I hope you find this site informative and engaging.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## About Keefe Reeves
+My name is Keefe Reeves, and I am a passionate ethical hacker and cybersecurity enthusiast. With a strong background in programming and a keen interest in the latest technological advancements, I strive to stay at the forefront of the industry. My journey in the world of technology started at a young age, and over the years, I've developed a deep understanding of various programming languages and cybersecurity protocols.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## Professional Background
+I am currently the CEO and Senior Engineer at Data-Ject Solutions, where I create AI software, program web and server applications, and specialize in Unix operating systems. My role involves overseeing technical and operational aspects, ensuring that our solutions meet the highest standards of quality and security. Previously, I have held various customer service roles, which have equipped me with exceptional communication skills and a strong work ethic.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## Skills and Expertise
+Over the years, I have honed a diverse set of skills that make me a versatile professional in the field of technology. I am proficient in HTML, CSS, JavaScript, PHP, PostgreSQL, and GitHub Pages. My expertise extends to ethical hacking, pen-testing, and cybersecurity, where I apply my knowledge to create secure and efficient code. Additionally, I have strong organizational skills, attention to detail, and the ability to function well in fast-paced environments.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Current Projects
+One of my notable projects is [anymodel](https://keefereeves.com/anymodel), an AI project designed for programmers and ethical hackers. This project includes a quantized version of CodeGemma 7b I-T hosted on Modal, focusing on file uploads and coding tasks. Additionally, I am working on a Lisp-based Unix-like kernel project, which aims to provide a robust and secure operating system with minimal C for networking.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## Ethical Hacking and Cybersecurity
+As an ethical hacker, I am dedicated to creating code that is both secure and efficient. I believe in the importance of ethical hacking for identifying vulnerabilities and strengthening cybersecurity measures. My work involves conducting penetration tests, developing secure applications, and staying updated with the latest security trends. My goal is to contribute to a safer digital world by sharing my knowledge and expertise with the community.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## AI Projects
+AI is a significant area of interest for me, and I have been involved in various AI-related projects. My work with AI involves creating intelligent software solutions that can assist programmers and ethical hackers. Projects like anymodel demonstrate my commitment to leveraging AI for practical applications. By integrating AI into my work, I aim to enhance the capabilities of developers and improve the overall efficiency of coding tasks.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Education and Certifications
+I hold a Grade 12 education from West Kings & District High School and have obtained various certifications from Codecademy, including HTML, CSS, JavaScript, PHP, PostgreSQL, and GitHub Pages. My educational background, combined with my professional experience, has provided me with a strong foundation in technology and cybersecurity. Continuous learning and self-improvement are essential aspects of my career development.
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Personal Interests
+Outside of my professional life, I have a wide range of interests that keep me motivated and inspired. I am an avid macOS enthusiast and enjoy exploring new features and functionalities of the operating system. I also have a deep appreciation for the Annapolis Valley, Nova Scotia, where I am from. My personal interests include staying active, spending time with family and pets, and engaging in various creative projects.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## Contact Information
+Thank you for visiting my personal website! If you would like to get in touch with me, please feel free to reach out via email at [reeveskeefe@gmail.com](mailto:reeveskeefe@gmail.com). You can also connect with me on [GitHub](https://github.com/keefereeves1) to follow my latest projects and contributions. I look forward to connecting with like-minded individuals and exploring new opportunities together.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
