@@ -1,0 +1,318 @@
+/* src/projects.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --primary-color: #ffffffcf;
+  --secondary-color: #ffffff;
+  --background-gradient: linear-gradient(135deg, #f5f7fa 0%, hsl(0, 0%, 100%) 100%);
+  --hero-gradient: linear-gradient(135deg, #0bc2ff 0%, #28cff9 100%); 
+  --text-color: #333;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; 
+  min-height: 100vh;
+  background: var(--background-gradient);
+  color: var(--text-color);
+  text-align: left;
+  padding: 20px;
+}
+
+.hero {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  animation: cloudPoof 2s ease-in-out;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero h1 {
+  font-size: 4rem;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-family: 'Bebas Neue', sans-serif;
+  position: relative;
+  z-index: 1;
+}
+
+.hero:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 0;
+}
+
+@keyframes cloudPoof {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.project-sections {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-section {
+  width: 100%;
+  max-width: 800px;
+  margin: 20px 0;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.757);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  font-family: 'Jost', sans-serif;
+  position: relative;
+}
+
+.project-section:hover {
+  transform: scale(1.02);
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.arrow {
+  cursor: pointer;
+  font-size: 24px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.arrow:hover {
+  transform: translateX(5px);
+}
+
+.project-section h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.project-section p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.popup-images {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.popup-images.project2 {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+}
+
+.popup-images.project2 img {
+  width: 100px;
+  height: auto;
+}
+
+
+.popup-images img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.popup-images img:hover {
+  transform: scale(1.05);
+}
+
+.back-button {
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  background: linear-gradient(135deg, #0bc2ff 0%, #287ff9 100%);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.back-button:hover {
+  background-color: #0056b3;
+}
+
+.lightbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2000;
+}
+
+.lightbox-image {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 8px;
+}
+
+.project3-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin-top: 20px;
+  width: 100%;
+  justify-content: center;
+}
+.download-button {
+  padding: 100px 30px;
+}
+.download-button, .github-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 12px 24px;
+  background: linear-gradient(135deg, #0bc2ff 0%, #287ff9 100%);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: background-color 0.3s, transform 0.3s;
+  text-align: center;
+  width: 100%; 
+  max-width: 300px;
+  position: relative;
+  left: 50%;
+
+}
+
+.download-button:hover, .github-button:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
+
+.download-button .fa-download, .github-button .fa-github {
+  margin-right: 8px;
+}
+
+/* Media Queries */
+@media (max-width: 1024px) {
+  .download-button, .github-button {
+ position: relative;
+ left: -0%;
+
+  }
+}
+
+@media (max-width: 768px) {
+  .download-button, .github-button {
+    position: relative;
+    left: -0%;
+    max-width:80%;
+  }
+}
+@media (max-width: 1000px) {
+  .download-button, .github-button {
+    position: relative;
+    left: -0%;
+    max-width:80%;
+  }
+}
+@media (min-width: 769px) and (max-width: 1025px) {
+  .download-button, .github-button {
+    width: 80%; 
+    left: 50%;
+    position: relative;
+  }
+}
+
+@media (max-width: 480px) {
+  .download-button, .github-button {
+    position: relative;
+    left: -0%;
+    max-width: 80%;
+  }
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 3rem;
+  }
+
+  .project-section h2 {
+    font-size: 1.5rem;
+  }
+
+  .project-section p {
+    font-size: 1rem;
+  }
+
+  .popup-images {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .project-section h2 {
+    font-size: 1.2rem;
+  }
+
+  .project-section p {
+    font-size: 0.9rem;
+  }
+}
